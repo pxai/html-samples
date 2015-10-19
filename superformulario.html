@@ -1,0 +1,113 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+	<!-- Comentario -->
+	<meta charset="UTF-8">
+	<title>SuperFormulario</title>
+</head>
+
+<body>
+
+
+	<form name="formu" action="http://www.meneame.net" method="post" enctype="multipart/form-data" >
+		<fieldset>
+
+			<legend>Alta</legend>
+			<div>
+				<label for="login">Login</label>
+			</div>
+			<div>
+				<input type="text" id="login" name="login" value="">
+			</div>
+			<div>
+				<label for="password">Password</label>
+			</div>
+			<div>
+				<input type="password" id="password" name="password" value="">
+			</div>
+			<div>
+				<label for="texto">Texto</label>
+			</div>
+			<div>
+				<textarea id="texto" name="texto" cols="40" rows="10"></textarea>
+			</div>
+			<div>
+				<label for="estado">Estado civil</label>
+			</div>
+			<div>
+				<select name="estado" id="estado">
+					<option value="45">Casado</option>
+					<option value="23" selected="selected">Soltero</option>
+					<option value="42">Soltero y entero</option>
+				</select>
+			</div>
+			<div>
+				<label for="posesiones">Posesiones</label>
+			</div>
+			<div>
+				<select name="posesiones" id="posesiones" size="10" multiple="multiple">
+					<optgroup label="vehículos">
+						<option value="45">Coche</option>
+						<option value="41">Moto</option>
+					</optgroup>
+					<optgroup label="inmuebles">
+					<option value="24">Casa</option>
+					<option value="23">Apartamento</option>
+					</optgroup>
+					<optgroup label="telefonos">
+					<option value="42">iPhone</option>
+					<option value="34">Blackbirria</option>
+					<option value="4">Windows phone</option>
+					</optgroup>
+				</select>
+			</div>
+
+			<div>
+				<label for="titulaciones">Titulaciones</label>
+			</div>
+			<div>
+					<input type="checkbox" name="titulacion" id="eso"  value="eso" />
+					<label for="eso">ESO</label>
+					<input type="checkbox" name="titulacion" id="bachiller"  value="bachiller" />
+					<label for="bachiller">Bachiller</label>
+					<input type="checkbox" name="titulacion" id="cs"  value="cs" />
+					<label for="cs">Ciclo superior</label>
+			</div>
+
+			<div>
+				<label for="sexo">Sexo</label>
+			</div>
+			<div>
+					<input type="radio" name="sexo" id="hombre"  value="1" />
+					<label for="hombre">Hombre</label>
+					<input type="radio" name="sexo" id="mujer"  value="2" />
+					<label for="mujer">Mujer</label>
+					<input type="radio" name="sexo" id="cambio"  value="3" />
+					<label for="cambio">Por la noche cambio</label>
+			</div>
+			<input type="hidden" name="codigo" id="codigo" value="666" />
+			<div>
+				<label for="foto">Foto</label>
+			</div>
+			<div>
+					<input type="file" name="fichero" id="fichero" />
+			</div>
+			<div>
+					<input type="image" name="enviar" id="enviar" src="html_logo.png" />
+			</div>
+
+			<div>
+				<input type="submit" name="submit" value="Buscar">
+			</div>
+			<div>
+				<input type="button" name="hazalgo" value="Haz algo">
+			</div>
+			<div>
+				<input type="reset" name="reset" value="Reset">
+			</div>
+		</fieldset>
+	</form>
+</body>
+
+</html>

@@ -1,0 +1,15 @@
+/*
+Esto es un comentario
+banderas.css
+*/
+#bloque1, #bloque3 {
+  background-color: red;
+  height: 75px;
+}
+
+#bloque2 {
+  background-color: yellow;
+
+    background-repeat: no-repeat;
+  height: 175px;
+}

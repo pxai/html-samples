@@ -1,0 +1,26 @@
+/*
+Esto es un comentario
+banderas.css
+*/
+#bloque1 {
+  background-color: red;
+  height: 75px;
+}
+#bloque1:hover {
+    background-color: pink;
+}
+
+#bloque2 {
+  height: 175px;
+background-color: aquamarine;
+}
+
+#bloque3 {
+    border: 8px dashed pink;
+    padding: 5px;
+    margin-top: 10px;
+    background-color: gray;
+  color: white;
+    text-align: center;
+    font-size: 8px;
+}
